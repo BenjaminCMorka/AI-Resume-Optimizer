@@ -81,6 +81,9 @@ async def get_resume_feedback(
         print("Error details:")
         traceback.print_exc()  
         return JSONResponse({"error": str(e)}, status_code=500)
+@app.get("/")
+async def root():
+    return {"message": "Backend is running"}
 
 print("Form Recognizer Endpoint:", FORM_RECOGNIZER_ENDPOINT)
 print("Form Recognizer Key:", FORM_RECOGNIZER_KEY is not None)
