@@ -1,4 +1,4 @@
-# Resume Reviewer
+# Resume Optimizer
 
 Resume Reviewer is an AI-powered web app that provides personalized, actionable feedback on your resume tailored to specific job descriptions. It combines advanced Python backend processing with a sleek React frontend to streamline the resume review process using modern cloud AI services.
 
