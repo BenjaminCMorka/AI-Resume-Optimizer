@@ -56,7 +56,7 @@ def generate_feedback(resume_text: str, job_description: str) -> str:
     And this job description:
     {job_description}
 
-    Please provide constructive feedback on what skills or experiences could be added or highlighted to better match the job description.
+    Please provide constructive feedback on the cover letter to better match the job description.
     """
 
     response = client.chat.completions.create(
