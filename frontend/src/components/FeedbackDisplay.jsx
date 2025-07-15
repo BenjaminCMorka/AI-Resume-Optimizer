@@ -1,6 +1,7 @@
 import React from 'react';
 
-const FeedbackDisplay = ({ feedback }) => {
+const FeedbackDisplay = ({ feedback, loading }) => {
+  if (!feedback) return null;
 
   return (
     <div className="p-6 bg-white shadow-xl rounded-xl max-w-2xl mx-auto mt-8">
