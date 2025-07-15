@@ -40,7 +40,7 @@ const App = () => {
         <p className="text-lg mb-2">Connect with me</p>
         <div className="space-x-8">
           <a
-            href="https://github.com/yourusername"
+            href="https://github.com/BenjaminCMorka"
             target="_blank"
             rel="noopener noreferrer"
             className="hover:underline"
@@ -48,7 +48,7 @@ const App = () => {
             Github
           </a>
           <a
-            href="https://linkedin.com/in/yourprofile"
+            href="https://linkedin.com/in/benjamin-morka/"
             target="_blank"
             rel="noopener noreferrer"
             className="hover:underline"
