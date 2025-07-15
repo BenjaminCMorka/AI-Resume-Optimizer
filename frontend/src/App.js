@@ -37,27 +37,7 @@ const App = () => {
       <ResumeUpload onSubmit={handleSubmit} />
       <FeedbackDisplay feedback={feedback} loading={loading} />
 
-      <footer className="text-white py-6 text-center">
-        <p className="text-lg mb-2">Connect with me</p>
-        <div className="space-x-8">
-          <SocialIcon
-            url="https://github.com/BenjaminCMorka"
-            target="_blank"
-            rel="noopener noreferrer"
-            bgColor="#ffffff"
-            fgColor="#000000"
-            style={{ height: 40, width: 40 }}
-          />
-          <SocialIcon
-            url="https://linkedin.com/in/benjamin-morka"
-            target="_blank"
-            rel="noopener noreferrer"
-            bgColor="#ffffff"
-            fgColor="#0A66C2"
-            style={{ height: 40, width: 40 }}
-          />
-        </div>
-      </footer>
+      
 
 
     </div>
