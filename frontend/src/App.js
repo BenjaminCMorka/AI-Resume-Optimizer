@@ -14,7 +14,7 @@ const App = () => {
     formData.append('job_description', jobDescription);
 
     try {
-      const response = await fetch('http://localhost:8000/feedback', {
+      const response = await fetch('https://resume-reviewer-a4x3.onrender.com/feedback', {
         method: 'POST',
         body: formData,
       });
