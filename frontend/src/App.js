@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import ResumeUpload from './components/ResumeUpload';
 import FeedbackDisplay from './components/FeedbackDisplay';
+import { SocialIcon } from 'react-social-icons';
 
 const App = () => {
   const [feedback, setFeedback] = useState('');
@@ -39,22 +40,22 @@ const App = () => {
       <footer className="text-white py-6 text-center">
         <p className="text-lg mb-2">Connect with me</p>
         <div className="space-x-8">
-          <a
-            href="https://github.com/BenjaminCMorka"
+          <SocialIcon
+            url="https://github.com/BenjaminCMorka"
             target="_blank"
             rel="noopener noreferrer"
-            className="hover:underline"
-          >
-            Github
-          </a>
-          <a
-            href="https://linkedin.com/in/benjamin-morka/"
+            bgColor="#ffffff"
+            fgColor="#000000"
+            style={{ height: 40, width: 40 }}
+          />
+          <SocialIcon
+            url="https://linkedin.com/in/benjamin-morka"
             target="_blank"
             rel="noopener noreferrer"
-            className="hover:underline"
-          >
-            LinkedIn
-          </a>
+            bgColor="#ffffff"
+            fgColor="#0A66C2"
+            style={{ height: 40, width: 40 }}
+          />
         </div>
       </footer>
 
