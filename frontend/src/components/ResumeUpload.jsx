@@ -99,7 +99,7 @@ const ResumeUpload = ({ onSubmit }) => {
             <div className="mb-8">
               <label className="block text-white font-semibold mb-3 flex items-center gap-2">
                 <FileText className="w-5 h-5" />
-                Upload Your Resume
+                Upload Your cover letter 
               </label>
               
               <div
