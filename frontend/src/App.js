@@ -14,7 +14,7 @@ const App = () => {
     formData.append('job_description', jobDescription);
 
     try {
-      const response = await fetch('https://resume-reviewer-a4x3.onrender.com/feedback', {
+      const response = await fetch('http://localhost:8000/feedback', {
         method: 'POST',
         body: formData,
       });
@@ -31,10 +31,8 @@ const App = () => {
       setLoading(false);
     }
   };
-
   return (
-   <div className="min-h-screen bg-gradient-to-b from-sky-100 to-indigo-200 p-4">
-      <h1 className="text-2xl font-bold text-center mb-4">Resume Feedback Tool</h1>
+    <div className="min-h-screen bg-gradient-to-br from-slate-900 via-purple-900 to-slate-900">
       <ResumeUpload onSubmit={handleSubmit} />
       <FeedbackDisplay feedback={feedback} loading={loading} />
     </div>
