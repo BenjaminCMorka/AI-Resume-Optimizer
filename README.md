@@ -38,7 +38,7 @@ The frontend is developed in **React**, offering users an intuitive interface to
 
 ---
 
-## Demo
+## Website
 
 Check out the live website here:
 [https://resume-reviewer-coral.vercel.app](https://resume-reviewer-coral.vercel.app)
