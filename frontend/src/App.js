@@ -36,26 +36,28 @@ const App = () => {
       <ResumeUpload onSubmit={handleSubmit} />
       <FeedbackDisplay feedback={feedback} loading={loading} />
 
-      <footer className="bg-purple-700 text-white py-6 text-center">
-  <div className="space-x-8">
-    <a
-      href="https://github.com/yourusername"
-      target="_blank"
-      rel="noopener noreferrer"
-      className="hover:underline"
-    >
-      Github
-    </a>
-    <a
-      href="https://linkedin.com/in/yourprofile"
-      target="_blank"
-      rel="noopener noreferrer"
-      className="hover:underline"
-    >
-      LinkedIn
-    </a>
-  </div>
-</footer>
+      <footer className="text-white py-6 text-center">
+        <p className="text-lg mb-2">Connect with me</p>
+        <div className="space-x-8">
+          <a
+            href="https://github.com/yourusername"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="hover:underline"
+          >
+            Github
+          </a>
+          <a
+            href="https://linkedin.com/in/yourprofile"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="hover:underline"
+          >
+            LinkedIn
+          </a>
+        </div>
+      </footer>
+
 
     </div>
     
