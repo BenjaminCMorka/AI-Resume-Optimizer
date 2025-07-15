@@ -40,8 +40,8 @@ The frontend is developed in **React**, offering users an intuitive interface to
 
 ## Demo
 
-Check out the live demo here:  
-[https://your-vercel-url.vercel.app](https://your-vercel-url.vercel.app)
+Check out the live website here:
+[https://resume-reviewer-coral.vercel.app](https://resume-reviewer-coral.vercel.app)
 
 ---
 
