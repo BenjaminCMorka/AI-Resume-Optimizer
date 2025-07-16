@@ -86,7 +86,7 @@ const ResumeUpload = ({ onSubmit }) => {
             <Sparkles className="w-8 h-8 text-white" />
           </div>
           <h1 className="text-4xl font-bold text-white mb-2">
-            Cover Letter <span className="text-transparent bg-clip-text bg-gradient-to-r from-blue-400 to-purple-400">Optimizer</span>
+            Resume <span className="text-transparent bg-clip-text bg-gradient-to-r from-blue-400 to-purple-400">Optimizer</span>
           </h1>
           <p className="text-gray-300 text-lg">Get AI-powered feedback to match your dream job</p>
         </div>
@@ -99,7 +99,7 @@ const ResumeUpload = ({ onSubmit }) => {
             <div className="mb-8">
               <label className="block text-white font-semibold mb-3 flex items-center gap-2">
                 <FileText className="w-5 h-5" />
-                Upload Your cover letter 
+                Upload Your Resume
               </label>
               
               <div
